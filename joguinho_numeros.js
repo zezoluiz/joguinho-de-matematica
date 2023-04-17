@@ -4,12 +4,12 @@ const prompt = require("prompt-sync")()
 let numeroAleatorio1 = Math.floor(Math.random() * 20) + 1
 let numeroAleatorio2 = Math.floor(Math.random() * 20) + 1
 
-var number1 = numeroAleatorio1
-var number2 = numeroAleatorio2
-var soma = parseInt(number1) + parseInt(number2)
+// var number1 = numeroAleatorio1
+// var number2 = numeroAleatorio2
+var soma = parseInt(numeroAleatorio1) + parseInt(numeroAleatorio2)
 
 console.log("Quanto é?")
-console.log(number1, "+", number2)
+console.log(numeroAleatorio1, "+", numeroAleatorio2)
 
 resposta = prompt("Reponda:")
 
@@ -23,5 +23,3 @@ function resolvendoQuestão() {
     }
 }
 console.log(resolvendoQuestão())
-
-
